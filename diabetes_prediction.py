@@ -63,7 +63,7 @@ def main():
     
     # Add content to the main area
     st.write("This model is trained by the responses which have been collected using direct questionnaires from the patients of Sylhet Diabetes Hospital in Sylhet, Bangladesh and approved by a doctor.")
-    st.write("Refer the info for unknown answers(click on top left '>')")
+    st.write("Refer the info for unknown answers (Tap on the top-left icon '>')")
     # Add content to the sidebar
     st.sidebar.markdown('<p style="color: #008080; font-size: 28px; font-weight: bold;">Info:</p>', unsafe_allow_html=True)
     st.sidebar.markdown('**BMI:**  (Weight in kilograms) divided by (Height in meters)^2')
